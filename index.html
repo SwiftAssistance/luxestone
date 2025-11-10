@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-
 <html lang="en-GB" itemscope itemtype="https://schema.org/HomeAndConstructionBusiness" class="scroll-smooth">
 <head>
     <title>Driveway & Patio Installation East Sussex, Kent | Block Paving, Resin, Landscaping | LuxeStone Construction</title>
     <meta name="description" content="Premium driveway, patio & landscaping services in East Sussex & Kent. Expert block paving, resin driveways, patios, fencing & groundworks. Free quotes. Fully insured. Call 07060 789789">
     <meta name="keywords" content="driveway installation east sussex, paving contractors kent, patio installation brighton, block paving eastbourne, landscaping tunbridge wells, resin driveway kent, fencing contractors sussex, groundworks maidstone">
     
-    <!-- CORE TECHNICAL SEO -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -14,56 +12,42 @@
     <meta name="bingbot" content="index, follow">
     <link rel="canonical" href="https://www.luxestoneconstruction.co.uk/">
     
-    <!-- GEO-LOCATION META (Critical for Local SEO) -->
     <meta name="geo.region" content="GB-ESX">
     <meta name="geo.placename" content="East Sussex">
     <meta name="geo.position" content="50.8225;0.1372">
     <meta name="ICBM" content="50.8225, 0.1372">
     
-    <!-- PERFORMANCE OPTIMIZATION -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=yes">
     <meta name="theme-color" content="#2c3442">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     
-    <!-- OPEN GRAPH FOR SOCIAL SEO -->
     <meta property="og:title" content="LuxeStone Construction | Premium Driveways, Patios & Landscaping | East Sussex & Kent">
     <meta property="og:description" content="Transform your outdoor space with luxury driveway, patio & landscaping services. Serving East Sussex & Kent. Free quotes available.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.luxestoneconstruction.co.uk/">
-    <meta property="og:image" content="https://www.luxestoneconstruction.co.uk/images/luxe-driveway-installation.webp"> <!-- .webp format -->
+    <meta property="og:image" content="https://www.luxestoneconstruction.co.uk/images/luxe-driveway-installation.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:locale" content="en_GB">
     <meta property="og:site_name" content="LuxeStone Construction">
     
-    <!-- TWITTER CARDS -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LuxeStone Construction | Driveways & Patios East Sussex">
     <meta name="twitter:description" content="Premium construction services. Driveways, patios, landscaping & more. East Sussex & Kent.">
-    <meta name="twitter:image" content="https://www.luxestoneconstruction.co.uk/images/luxe-driveway-installation.webp"> <!-- .webp format -->
+    <meta name="twitter:image" content="https://www.luxestoneconstruction.co.uk/images/luxe-driveway-installation.webp">
     
-    <!-- FAVICON & APPLE TOUCH ICONS (Placeholder paths) -->
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
-    <!-- 
-    -----------------------------------------------------------------------------------------------------
-    SECTION: STYLESHEETS & FONTS
-    -----------------------------------------------------------------------------------------------------
-    -->
-    
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Google Fonts: Inter (Body) & Cinzel (Headings for luxury feel) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Custom Tailwind Configuration -->
     <script>
         tailwind.config = {
             theme: {
@@ -93,25 +77,18 @@
         }
     </script>
 
-    <!-- Custom Styles -->
     <style>
-        /* Base styles */
         body {
             font-family: 'Inter', sans-serif;
             color: #333;
             background-color: #ffffff;
         }
-
-        /* Luxury heading font */
         h1, h2, h3, h4, .font-serif {
             font-family: 'Cinzel', serif;
             letter-spacing: 0.5px;
         }
-
-        /* Custom underline for headings */
         .title-underline {
             position: relative;
-            /* display: inline-block; <-- This was causing the issue */
             padding-bottom: 10px;
         }
         .title-underline::after {
@@ -125,8 +102,6 @@
             background-color: #d4af37;
             border-radius: 2px;
         }
-
-        /* Hero section overlay */
         .hero-overlay::after {
             content: '';
             position: absolute;
@@ -134,22 +109,17 @@
             left: 0;
             right: 0;
             bottom: 0;
-            /* REMOVED: background: linear-gradient(to bottom, rgba(44, 52, 66, 0.85) 0%, rgba(44, 52, 66, 0.6) 50%, rgba(44, 52, 66, 0.85) 100%); */
             z-index: 1;
         }
-
-        /* Ensure content is above overlay */
         .hero-content {
             position: relative;
             z-index: 2;
         }
-
-        /* Service card icon style */
         .service-icon {
             background-color: #d4af37;
             color: #2c3442;
             padding: 1rem;
-            border-radius: 9999px; /* full circle */
+            border-radius: 9999px;
             display: inline-flex;
             align-items: center;
             justify-content: center;
@@ -159,15 +129,11 @@
             transform: scale(1.1);
             box-shadow: 0 0 15px rgba(212, 175, 55, 0.7);
         }
-
-        /* USP icon style */
         .usp-icon {
             width: 50px;
             height: 50px;
             color: #d4af37;
         }
-
-        /* 4-Step Process Timeline */
         .timeline-item {
             position: relative;
             padding-bottom: 2.5rem;
@@ -175,8 +141,8 @@
         .timeline-item:not(:last-child)::before {
             content: '';
             position: absolute;
-            left: 1.5rem; /* Aligns with the center of the circle */
-            top: 3rem; /* Starts below the circle */
+            left: 1.5rem;
+            top: 3rem;
             bottom: 0;
             width: 2px;
             background-color: #d4af37;
@@ -198,8 +164,6 @@
             font-size: 1.25rem;
             z-index: 1;
         }
-
-        /* Gallery hover effect */
         .gallery-item {
             overflow: hidden;
             position: relative;
@@ -225,8 +189,6 @@
         .gallery-item:hover .gallery-overlay {
             transform: translateY(0);
         }
-
-        /* Testimonial card */
         .testimonial-card {
             background-color: #ffffff;
             border-left: 5px solid #d4af37;
@@ -237,13 +199,11 @@
         .testimonial-stars {
             color: #d4af37;
         }
-
-        /* Scroll-to-top button */
         #scrollTopBtn {
-            display: none; /* Hidden by default, JS will change to 'flex' */
+            display: none;
             position: fixed;
             bottom: 20px;
-            right: 80px; /* Moved left to make space for WhatsApp */
+            right: 80px;
             z-index: 99;
             border: none;
             outline: none;
@@ -257,7 +217,6 @@
             font-size: 1.25rem;
             transition: all 0.3s ease;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-            /* FIX: Added flex properties for centering */
             align-items: center;
             justify-content: center;
         }
@@ -265,8 +224,6 @@
             background-color: #b38f2e;
             transform: translateY(-3px);
         }
-
-        /* NEW: WhatsApp Float Button */
         #whatsappBtn {
             display: flex;
             align-items: center;
@@ -277,7 +234,7 @@
             z-index: 99;
             border: none;
             outline: none;
-            background-color: #25D366; /* WhatsApp Green */
+            background-color: #25D366;
             color: white;
             cursor: pointer;
             padding: 0.8rem;
@@ -289,22 +246,18 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
         }
         #whatsappBtn:hover {
-            background-color: #128C7E; /* Darker WhatsApp Green */
+            background-color: #128C7E;
             transform: translateY(-3px);
             box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
         }
-
-        /* Animation classes */
         .fade-in {
             opacity: 0;
         }
         .animate-on-scroll {
             animation-fill-mode: forwards;
         }
-
-        /* Contact Form Modal */
         .modal {
-            display: none; /* Hidden by default */
+            display: none;
             position: fixed;
             z-index: 100;
             left: 0;
@@ -341,8 +294,6 @@
             text-decoration: none;
             cursor: pointer;
         }
-
-        /* Premium Buttons */
         .btn {
             display: inline-block;
             font-family: 'Inter', sans-serif;
@@ -356,7 +307,6 @@
             cursor: pointer;
             text-align: center;
         }
-        
         .btn-gold {
             background-color: #d4af37;
             color: #2c3442;
@@ -368,7 +318,6 @@
             box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
             transform: translateY(-2px);
         }
-
         .btn-outline {
             background-color: transparent;
             color: #ffffff;
@@ -380,22 +329,12 @@
             box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
             transform: translateY(-2px);
         }
-
-        /* Small button variant */
         .btn-sm {
             padding: 0.6rem 1.2rem;
             font-size: 0.8rem;
         }
     </style>
-
-    <!-- 
-    -----------------------------------------------------------------------------------------------------
-    SECTION: SCHEMA MARKUP (JSON-LD)
-    STRATEGY: Provide rich data to search engines for local SEO, services, FAQs, and trust signals.
-    -----------------------------------------------------------------------------------------------------
-    -->
     
-    <!-- LOCAL BUSINESS SCHEMA (CRITICAL FOR GOOGLE MAPS & LOCAL SEO) -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -502,7 +441,6 @@
     }
     </script>
     
-    <!-- SERVICE SCHEMA FOR EACH SERVICE -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -530,7 +468,6 @@
     }
     </script>
     
-    <!-- BREADCRUMB SCHEMA -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -552,7 +489,6 @@
     }
     </script>
     
-    <!-- FAQ SCHEMA (Rich Snippet Opportunity) -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -594,7 +530,6 @@
     }
     </script>
     
-    <!-- REVIEW SCHEMA (Trust Signals) -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -619,22 +554,14 @@
 
 <body class="bg-white text-gray-800">
 
-    <!-- 
-    -----------------------------------------------------------------------------------------------------
-    SECTION: HEADER & NAVIGATION
-    -----------------------------------------------------------------------------------------------------
-    -->
     <header class="bg-brand-navy text-white sticky top-0 z-50 shadow-lg">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             
-            <!-- Logo -->
             <a href="/" class="text-2xl font-serif font-bold text-brand-gold flex items-center">
-                <!-- Placeholder for logo image -->
                 <img src="images/logo-icon.webp" alt="LuxeStone Construction Logo Icon" class="h-10 w-10 mr-3">
                 <span class="hidden sm:inline">LuxeStone Construction</span>
             </a>
             
-            <!-- Desktop Navigation -->
             <nav class="hidden lg:flex items-center space-x-6">
                 <a href="index.html" class="text-white hover:text-brand-gold transition duration-300">Home</a>
                 <a href="services.html" class="text-white hover:text-brand-gold transition duration-300">Services</a>
@@ -644,7 +571,6 @@
                 <button onclick="openModal()" class="btn btn-gold btn-sm">Get Your Free Quote</button>
             </nav>
             
-            <!-- Mobile Menu Button -->
             <div class="lg:hidden">
                 <button id="mobile-menu-button" class="text-white focus:outline-none">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -654,7 +580,6 @@
             </div>
         </div>
         
-        <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden lg:hidden bg-brand-navy bg-opacity-95 backdrop-blur-sm absolute top-full left-0 w-full">
             <nav class="flex flex-col items-center p-6 space-y-4">
                 <a href="index.html" class="text-white text-lg hover:text-brand-gold transition duration-300">Home</a>
@@ -667,26 +592,13 @@
         </div>
     </header>
 
-    <!-- 
-    -----------------------------------------------------------------------------------------------------
-    SECTION: MAIN CONTENT WRAPPER
-    -----------------------------------------------------------------------------------------------------
-    -->
     <main>
 
-        <!-- 
-        -------------------------------------------------------------------------------------------------
-        SECTION: HERO
-        STRATEGY: Capture attention with premium branding & clear, SEO-driven H1.
-        -------------------------------------------------------------------------------------------------
-        -->
         <section class="relative h-screen min-h-[700px] flex items-center justify-center text-center text-white bg-brand-navy hero-overlay" style="background-image: url('images/hero-background.webp'); background-size: cover; background-position: center; background-attachment: fixed;">
             <div classs="hero-content container mx-auto px-6 z-10">
-                <!-- FIX: Added 'animate-on-scroll' to make content visible -->
                 <div class="fade-in animate-on-scroll" style="animation-delay: 0.2s;">
                     <span class="text-brand-gold font-serif text-2xl mb-4 block">LuxeStone Construction</span>
                     
-                    <!-- H1: Single, keyword-rich, location-specific (CRITICAL) -->
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif font-extrabold text-white mb-6 leading-tight">
                         Premium Driveway & Patio Installation
                         <span class="block text-3xl md:text-4xl lg:text-5xl mt-2">East Sussex & Kent</span>
@@ -707,7 +619,6 @@
                         </a>
                     </div>
                     
-                    <!-- Trust Badges -->
                     <div class="mt-16 flex flex-wrap justify-center gap-x-6 gap-y-2 max-w-4xl mx-auto">
                         <span class="font-semibold text-gray-200">✓ Fully Insured</span>
                         <span class="font-semibold text-gray-200">✓ Premium Materials</span>
@@ -718,25 +629,16 @@
             </div>
         </section>
 
-        <!-- 
-        -------------------------------------------------------------------------------------------------
-        SECTION: SERVICES GRID
-        STRATEGY: Showcase all services, linking to individual pages. SEO-driven alt text.
-        -------------------------------------------------------------------------------------------------
-        -->
         <section id="services" class="py-20 md:py-28 bg-brand-light-gray">
             <div class="container mx-auto px-6">
-                <!-- H2: Service category with location -->
                 <h2 class="text-3xl md:text-4xl font-serif font-bold text-center text-brand-navy mb-16 title-underline fade-in animate-on-scroll">
                     Expert Construction Services Across East Sussex & Kent
                 </h2>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     
-                    <!-- Service Card: Driveways -->
                     <div class="service-card bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 fade-in animate-on-scroll" style="animation-delay: 0.1s;">
                         <div class="service-icon mb-6">
-                            <!-- SVG Icon: Driveway -->
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
                         </div>
                         <h3 class="text-2xl font-serif font-bold text-brand-navy mb-4">Driveway Installation</h3>
@@ -746,10 +648,8 @@
                         <a href="driveways.html" class="font-bold text-brand-gold hover:text-brand-gold-dark transition duration-300">Learn More &rarr;</a>
                     </div>
                     
-                    <!-- Service Card: Landscaping -->
                     <div class="service-card bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 fade-in animate-on-scroll" style="animation-delay: 0.2s;">
                         <div class="service-icon mb-6">
-                            <!-- SVG Icon: Landscaping -->
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.4 4.6a2 2 0 010 2.8L12 14.8l-7.4-7.4a2 2 0 010-2.8L12 4.6zM5 12v6a2 2 0 002 2h10a2 2 0 002-2v-6"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                         </div>
                         <h3 class="text-2xl font-serif font-bold text-brand-navy mb-4">Landscaping Services</h3>
@@ -759,10 +659,8 @@
                         <a href="landscaping.html" class="font-bold text-brand-gold hover:text-brand-gold-dark transition duration-300">Learn More &rarr;</a>
                     </div>
 
-                    <!-- Service Card: Groundworks -->
                     <div class="service-card bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 fade-in animate-on-scroll" style="animation-delay: 0.3s;">
                         <div class="service-icon mb-6">
-                            <!-- SVG Icon: Groundworks -->
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
                         </div>
                         <h3 class="text-2xl font-serif font-bold text-brand-navy mb-4">Groundworks</h3>
@@ -782,12 +680,6 @@
             </div>
         </section>
         
-        <!-- 
-        -------------------------------------------------------------------------------------------------
-        SECTION: WHY CHOOSE US (USPs)
-        STRATEGY: Build trust with clear, icon-based Unique Selling Propositions.
-        -------------------------------------------------------------------------------------------------
-        -->
         <section id="why-us" class="py-20 md:py-28 bg-brand-navy text-white" style="background-image: url('images/geometric-pattern.webp'); background-blend-mode: multiply; background-size: cover; background-position: center;">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-serif font-bold text-center text-white mb-16 title-underline fade-in animate-on-scroll">
@@ -796,20 +688,15 @@
                 
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
                     
-                    <!-- USP Item 1 -->
                     <div class="text-center fade-in animate-on-scroll" style="animation-delay: 0.1s;">
-                        <!-- SVG: Star -->
                         <svg class="usp-icon mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l2.07 6.36h6.702c.969 0 1.371 1.24.588 1.81l-5.416 3.936 2.07 6.36c.3.921-.755 1.688-1.54 1.118L12 18.211l-5.416 3.936c-.784.57-1.838-.197-1.54-1.118l2.07-6.36-5.416-3.936c-.783-.57-.38-1.81.588-1.81h6.702l2.07-6.36z"></path></svg>
-                        <!-- FIX: Added min-h class and flex for vertical alignment -->
                         <h3 class="text-xl font-serif font-bold text-brand-gold mb-3 min-h-[3rem] flex items-center justify-center">Expert Craftsmanship</h3>
                         <p class="text-gray-300">
                             Our skilled craftsmen ensure meticulous attention to detail on every project, from block paving to landscaping.
                         </p>
                     </div>
                     
-                    <!-- USP Item 2 -->
                     <div class="text-center fade-in animate-on-scroll" style="animation-delay: 0.2s;">
-                        <!-- SVG: Shield -->
                         <svg class="usp-icon mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                         <h3 class="text-xl font-serif font-bold text-brand-gold mb-3 min-h-[3rem] flex items-center justify-center">Workmanship Guarantee</h3>
                         <p class="text-gray-300">
@@ -817,9 +704,7 @@
                         </p>
                     </div>
                     
-                    <!-- USP Item 3 -->
                     <div class="text-center fade-in animate-on-scroll" style="animation-delay: 0.3s;">
-                        <!-- SVG: Materials -->
                         <svg class="usp-icon mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
                         <h3 class="text-xl font-serif font-bold text-brand-gold mb-3 min-h-[3rem] flex items-center justify-center">Premium Materials Only</h3>
                         <p class="text-gray-300">
@@ -827,9 +712,7 @@
                         </p>
                     </div>
 
-                    <!-- USP Item 4 -->
                     <div class="text-center fade-in animate-on-scroll" style="animation-delay: 0.4s;">
-                        <!-- SVG: Family -->
                         <svg class="usp-icon mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.175-2.825M17 14a4 4 0 110-8 4 4 0 010 8zM12.5 14a4 4 0 100-8 4 4 0 000 8zM2 20h5v-2a3 3 0 00-5.175-2.825M2 14a4 4 0 110-8 4 4 0 010 8z"></path></svg>
                         <h3 class="text-xl font-serif font-bold text-brand-gold mb-3 min-h-[3rem] flex items-center justify-center">Family-Run Business</h3>
                         <p class="text-gray-300">
@@ -837,9 +720,7 @@
                         </p>
                     </div>
 
-                    <!-- USP Item 5 -->
                     <div class="text-center fade-in animate-on-scroll" style="animation-delay: 0.5s;">
-                        <!-- SVG: Pricing -->
                         <svg class="usp-icon mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9.5M15 13H9.5M15 17H9.5"></path><path d="M9 13h0M9 17h0"></path></svg>
                         <h3 class="text-xl font-serif font-bold text-brand-gold mb-3 min-h-[3rem] flex items-center justify-center">Transparent Pricing</h3>
                         <p class="text-gray-300">
@@ -847,9 +728,7 @@
                         </p>
                     </div>
 
-                    <!-- USP Item 6 -->
                     <div class="text-center fade-in animate-on-scroll" style="animation-delay: 0.6s;">
-                        <!-- SVG: Local -->
                         <svg class="usp-icon mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                         <h3 class="text-xl font-serif font-bold text-brand-gold mb-3 min-h-[3rem] flex items-center justify-center">Local & Reliable</h3>
                         <p class="text-gray-300">
@@ -857,9 +736,7 @@
                         </p>
                     </div>
 
-                    <!-- USP Item 7 -->
                     <div class="text-center fade-in animate-on-scroll" style="animation-delay: 0.7s;">
-                        <!-- SVG: Design -->
                         <svg class="usp-icon mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.536l12.232-12.232z"></path></svg>
                         <h3 class="text-xl font-serif font-bold text-brand-gold mb-3 min-h-[3rem] flex items-center justify-center">Design Consultation</h3>
                         <p class="text-gray-300">
@@ -867,9 +744,7 @@
                         </p>
                     </div>
 
-                    <!-- USP Item 8 -->
                     <div class="text-center fade-in animate-on-scroll" style="animation-delay: 0.8s;">
-                        <!-- SVG: Certified -->
                         <svg class="usp-icon mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         <h3 class="text-xl font-serif font-bold text-brand-gold mb-3 min-h-[3rem] flex items-center justify-center">Fully Certified</h3>
                         <p class="text-gray-300">
@@ -881,17 +756,10 @@
             </div>
         </section>
 
-        <!-- 
-        -------------------------------------------------------------------------------------------------
-        SECTION: AREAS COVERED / MAP
-        STRATEGY: Reinforce local SEO with geographic keywords and a visual map.
-        -------------------------------------------------------------------------------------------------
-        -->
         <section id="areas-covered" class="py-20 md:py-28 bg-white">
             <div class="container mx-auto px-6">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     
-                    <!-- Google Map Embed -->
                     <div class="rounded-xl shadow-xl overflow-hidden fade-in animate-on-scroll">
                         <iframe 
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d322194.0435118774!2d0.0913953503831878!3d51.0805161405903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dE83B462C27835%3A0x1A2505963E4D519!2sEast%20Sussex!5e0!3m2!1sen!2suk!4v1678886056345!5m2!1sen!2suk" 
@@ -905,7 +773,6 @@
                         </iframe>
                     </div>
 
-                    <!-- Location List -->
                     <div class="fade-in animate-on-scroll" style="animation-delay: 0.2s;">
                         <h2 class="text-3xl md:text-4xl font-serif font-bold text-brand-navy mb-6">
                             Proudly Serving East Sussex & Kent
@@ -947,11 +814,6 @@
             </div>
         </section>
 
-        <!-- 
-        -------------------------------------------------------------------------------------------------
-        SECTION: 4-STEP PROCESS
-        -------------------------------------------------------------------------------------------------
-        -->
         <section id="process" class="py-20 md:py-28 bg-brand-light-gray">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-serif font-bold text-center text-brand-navy mb-16 title-underline fade-in animate-on-scroll">
@@ -959,10 +821,8 @@
                 </h2>
                 
                 <div class="max-w-3xl mx-auto">
-                    <!-- Timeline Item 1 -->
                     <div class="timeline-item fade-in animate-on-scroll" style="animation-delay: 0.1s;">
                         <div class="timeline-circle">
-                            <!-- SVG: Consultation -->
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
                         </div>
                         <div class="ml-20">
@@ -971,10 +831,8 @@
                         </div>
                     </div>
                     
-                    <!-- Timeline Item 2 -->
                     <div class="timeline-item fade-in animate-on-scroll" style="animation-delay: 0.2s;">
                         <div class="timeline-circle">
-                            <!-- SVG: Design -->
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.536l12.232-12.232z"></path></svg>
                         </div>
                         <div class="ml-20">
@@ -983,10 +841,8 @@
                         </div>
                     </div>
                     
-                    <!-- Timeline Item 3 -->
                     <div class="timeline-item fade-in animate-on-scroll" style="animation-delay: 0.3s;">
                         <div class="timeline-circle">
-                            <!-- SVG: Install -->
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         </div>
                         <div class="ml-20">
@@ -995,10 +851,8 @@
                         </div>
                     </div>
                     
-                    <!-- Timeline Item 4 (last item) -->
                     <div class="timeline-item fade-in animate-on-scroll" style="animation-delay: 0.4s;">
                         <div class="timeline-circle">
-                            <!-- SVG: Aftercare -->
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
                         </div>
                         <div class="ml-20">
@@ -1010,12 +864,6 @@
             </div>
         </section>
 
-        <!-- 
-        -------------------------------------------------------------------------------------------------
-        SECTION: GALLERY SHOWCASE
-        STRATEGY: Build visual trust. Alt text includes keywords and locations.
-        -------------------------------------------------------------------------------------------------
-        -->
         <section id="gallery" class="py-20 md:py-28 bg-white">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-serif font-bold text-center text-brand-navy mb-16 title-underline fade-in animate-on-scroll">
@@ -1023,7 +871,6 @@
                 </h2>
                 
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <!-- Image 1 -->
                     <a href="gallery.html" class="gallery-item rounded-xl shadow-lg fade-in animate-on-scroll" style="animation-delay: 0.1s;">
                         <img src="images/driveway-brighton.webp" alt="Block paving driveway installation in Brighton, East Sussex" class="w-full h-80 object-cover rounded-xl">
                         <div class="gallery-overlay">
@@ -1031,7 +878,6 @@
                             <p class="text-sm text-gray-200">Brighton, East Sussex</p>
                         </div>
                     </a>
-                    <!-- Image 2 -->
                     <a href="gallery.html" class="gallery-item rounded-xl shadow-lg fade-in animate-on-scroll" style="animation-delay: 0.2s;">
                         <img src="images/patio-kent.webp" alt="Indian stone patio installation in Kent" class="w-full h-80 object-cover rounded-xl">
                         <div class="gallery-overlay">
@@ -1039,7 +885,6 @@
                             <p class="text-sm text-gray-200">Tunbridge Wells, Kent</p>
                         </div>
                     </a>
-                    <!-- Image 3 -->
                     <a href="gallery.html" class="gallery-item rounded-xl shadow-lg fade-in animate-on-scroll" style="animation-delay: 0.3s;">
                         <img src="images/resin-driveway-eastbourne.webp" alt="Resin bound driveway installation in Eastbourne, East Sussex" class="w-full h-80 object-cover rounded-xl">
                         <div class="gallery-overlay">
@@ -1057,29 +902,19 @@
             </div>
         </section>
 
-        <!-- 
-        -------------------------------------------------------------------------------------------------
-        SECTION: TESTIMONIALS
-        -------------------------------------------------------------------------------------------------
-        -->
         <section id="testimonials" class="py-20 md:py-28 bg-brand-light-gray">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-serif font-bold text-center text-brand-navy mb-16 title-underline fade-in animate-on-scroll">
                     What Our Clients Say
                 </h2>
                 
-                <!-- Updated Testimonial Slider -->
                 <div class="max-w-3xl mx-auto">
-                    <!-- Single testimonial card that will be updated by JavaScript -->
                     <div id="testimonial-card" class="testimonial-card text-center" style="min-height: 280px; transition: opacity 0.5s ease-in-out;">
                         <div id="testimonial-stars" class="testimonial-stars mb-4 flex justify-center text-2xl">
-                            <!-- Stars will be injected by JS -->
                         </div>
                         <p id="testimonial-quote" class="text-gray-700 italic mb-6 text-lg md:text-xl">
-                            <!-- Quote will be injected by JS -->
                         </p>
                         <p id="testimonial-author" class="font-bold text-brand-navy text-lg">
-                            <!-- Author will be injected by JS -->
                         </p>
                     </div>
                 </div>
@@ -1087,11 +922,6 @@
             </div>
         </section>
 
-        <!-- 
-        -------------------------------------------------------------------------------------------------
-        SECTION: FINAL CTA
-        -------------------------------------------------------------------------------------------------
-        -->
         <section id="contact" class="py-20 md:py-28 bg-brand-navy text-white text-center" style="background-image: url('images/cta-background.webp'); background-size: cover; background-position: center; background-blend-mode: overlay;">
             <div class="container mx-auto px-6 fade-in animate-on-scroll">
                 <h2 class="text-3xl md:text-4xl lg:text-5xl font-serif font-bold mb-6">
@@ -1108,16 +938,10 @@
 
     </main>
 
-    <!-- 
-    -----------------------------------------------------------------------------------------------------
-    SECTION: FOOTER
-    -----------------------------------------------------------------------------------------------------
-    -->
     <footer class="bg-brand-navy text-gray-300 pt-20 pb-10">
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
                 
-                <!-- Footer: About -->
                 <div>
                     <h4 class="text-2xl font-serif font-bold text-brand-gold mb-6">LuxeStone Construction</h4>
                     <p class="mb-4">
@@ -1133,7 +957,6 @@
                     </div>
                 </div>
 
-                <!-- Footer: Quick Links -->
                 <div>
                     <h4 class="text-xl font-serif font-bold text-white mb-6">Quick Links</h4>
                     <nav class="flex flex-col space-y-3">
@@ -1145,7 +968,6 @@
                     </nav>
                 </div>
 
-                <!-- Footer: Services -->
                 <div>
                     <h4 class="text-xl font-serif font-bold text-white mb-6">Our Core Services</h4>
                     <nav class="flex flex-col space-y-3">
@@ -1159,7 +981,6 @@
                     </nav>
                 </div>
 
-                <!-- Footer: Contact -->
                 <div>
                     <h4 class="text-xl font-serif font-bold text-white mb-6">Contact Us</h4>
                     <ul class="space-y-3">
@@ -1175,8 +996,8 @@
                                 info@luxestoneconstruction.co.uk
                             </a>
                         </li>
-                        <li class="flex items-center"> <!-- Changed from items-start -->
-                            <svg class="w-5 h-5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        <li class="flex items-start pt-1">
+                            <svg class="w-5 h-5 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                             <span>Serving East Sussex, Kent, & Surrounding Areas (Brighton, Eastbourne, Tunbridge Wells, Maidstone)</span>
                         </li>
                     </ul>
@@ -1184,11 +1005,10 @@
 
             </div>
             
-            <!-- Sub-Footer -->
             <div class="border-t border-gray-700 pt-8 mt-12 text-center text-gray-400 text-sm">
                 <p>&copy; <span id="current-year"></span> LuxeStone Construction. All Rights Reserved.</p>
                 <p class="mt-1">
-                    Website Design by <a href="https://your-agency.com" class="hover:text-brand-gold">Scalix Studios</a> | 
+                    Website Design by <a href="https://your-agency.com" class="hover:text-brand-gold"Scalix Studios</a> | 
                     <a href="/privacy-policy" class="hover:text-brand-gold">Privacy Policy</a> | 
                     <a href="/sitemap.xml" class="hover:text-brand-gold">Sitemap</a>
                 </p>
@@ -1199,14 +1019,6 @@
         </div>
     </footer>
 
-
-    <!-- 
-    -----------------------------------------------------------------------------------------------------
-    SECTION: MODAL & UTILITY ELEMENTS
-    -----------------------------------------------------------------------------------------------------
-    -->
-
-    <!-- Contact Form Modal -->
     <div id="contactModal" class="modal">
         <div class="modal-content animate-fade-in">
             <span class="modal-close" onclick="closeModal()">&times;</span>
@@ -1214,12 +1026,10 @@
             <p class="text-gray-600 text-center mb-8">Fill out the form below and our team will be in touch shortly.</p>
             
             <form id="contact-form" class="space-y-6">
-                <!-- IMPORTANT: Replace with your own Web3Forms Access Key -->
                 <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
                 <input type="hidden" name="subject" value="New Quote Request from LuxeStone Website">
                 <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
-                <!-- Form Result Messages -->
                 <div id="form-result" class="hidden p-4 rounded-lg"></div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -1264,29 +1074,17 @@
         </div>
     </div>
 
-
-    <!-- NEW: WhatsApp Float Button -->
     <a id="whatsappBtn" href="https://wa.me/447060789789" target="_blank" aria-label="Chat on WhatsApp">
-        <!-- SVG: WhatsApp Icon -->
         <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.8-1.587-5.835.001-6.168 5.006-11.174 11.175-11.174 3.06 0 5.943 1.19 8.128 3.374s3.375 5.068 3.375 8.127c0 6.168-5.006 11.174-11.175 11.174-1.98 0-3.9- .52-5.6-1.474l-6.34 1.698zM6.605 17.38c.277.42.928.79 1.482.875.556.086 1.42.19 1.762.333.344.143.684.3.963.468.278.168.56.336.857.504.296.168.618.336.963.468a6.3 6.3 0 0 0 1.251.277c1.463 0 2.95-.504 3.867-1.474.918-.97 1.39-2.206 1.39-3.71.016-2.583-1.01-5.09-2.883-6.96-1.874-1.873-4.378-2.88-6.96-2.883-5.46 0-9.907 4.448-9.907 9.908 0 1.98.546 3.867 1.474 5.6l.044.086c.125.213.25.42.392.618.143.19.278.397.42.585.143.19.296.38.468.56.168.18.344.348.532.504z"/></svg>
     </a>
 
-    <!-- Scroll-to-Top Button -->
     <button id="scrollTopBtn" onclick="scrollToTop()">
-        <!-- SVG: Arrow Up -->
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>
     </button>
 
-
-    <!-- 
-    -----------------------------------------------------------------------------------------------------
-    SECTION: JAVASCRIPT
-    -----------------------------------------------------------------------------------------------------
-    -->
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
 
-            // --- Mobile Menu Toggle ---
             const menuButton = document.getElementById('mobile-menu-button');
             const mobileMenu = document.getElementById('mobile-menu');
             
@@ -1294,21 +1092,18 @@
                 mobileMenu.classList.toggle('hidden');
             });
 
-            // --- Current Year for Footer ---
             document.getElementById('current-year').textContent = new Date().getFullYear();
 
-            // --- Scroll-to-Top Button ---
             const scrollTopBtn = document.getElementById('scrollTopBtn');
             
             window.onscroll = function() {
                 if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                    scrollTopBtn.style.display = "flex"; /* FIX: Changed from 'block' to 'flex' */
+                    scrollTopBtn.style.display = "flex";
                 } else {
                     scrollTopBtn.style.display = "none";
                 }
             };
             
-            // --- Fade-in Animations on Scroll ---
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
@@ -1317,13 +1112,12 @@
                         observer.unobserve(entry.target);
                     }
                 });
-            }, { threshold: 0.1 }); // Trigger when 10% of the element is visible
+            }, { threshold: 0.1 });
 
             document.querySelectorAll('.fade-in').forEach(el => {
                 observer.observe(el);
             });
 
-            // --- Testimonial Slider ---
             const testimonials = [
                 {
                     quote: "Outstanding work on our new block paving driveway in Brighton. Professional, punctual, and the quality is exceptional. Highly recommend LuxeStone Construction.",
@@ -1360,33 +1154,26 @@
             let currentTestimonialIndex = 0;
 
             function showNextTestimonial() {
-                // Fade out
                 testimonialCard.style.opacity = 0;
 
                 setTimeout(() => {
-                    // Update index
                     currentTestimonialIndex = (currentTestimonialIndex + 1) % testimonials.length;
                     
-                    // Get next testimonial
                     const nextTestimonial = testimonials[currentTestimonialIndex];
                     
-                    // Update content
                     testimonialQuote.textContent = `"${nextTestimonial.quote}"`;
                     testimonialAuthor.textContent = `- ${nextTestimonial.author}`;
                     
-                    // Update stars
                     let starsHTML = '';
                     for(let i = 0; i < nextTestimonial.stars; i++) {
                         starsHTML += '<span>★</span>';
                     }
                     testimonialStars.innerHTML = starsHTML;
 
-                    // Fade in
                     testimonialCard.style.opacity = 1;
-                }, 500); // Wait for fade-out to complete
+                }, 500);
             }
 
-            // Immediately show the first testimonial on load
             const firstTestimonial = testimonials[0];
             testimonialQuote.textContent = `"${firstTestimonial.quote}"`;
             testimonialAuthor.textContent = `- ${firstTestimonial.author}`;
@@ -1395,16 +1182,10 @@
                 starsHTML += '<span>★</span>';
             }
             testimonialStars.innerHTML = starsHTML;
-            testimonialCard.style.opacity = 1; // Ensure it's visible on load
+            testimonialCard.style.opacity = 1;
 
-            // Start the slider
-            setInterval(showNextTestimonial, 6000); // Change every 6 seconds
+            setInterval(showNextTestimonial, 6000);
 
-
-            // --- Contact Form Modal ---
-            // Handled by global functions below
-
-            // --- Contact Form Submission (Web3Forms) ---
             const form = document.getElementById('contact-form');
             const submitBtn = document.getElementById('form-submit-btn');
             const formResult = document.getElementById('form-result');
@@ -1412,7 +1193,6 @@
             form.addEventListener('submit', function(e) {
                 e.preventDefault();
                 
-                // Check for placeholder access key
                 const accessKey = form.querySelector('input[name="access_key"]').value;
                 if (accessKey === "YOUR_ACCESS_KEY_HERE") {
                     formResult.innerHTML = "<strong>Error:</strong> Please replace 'YOUR_ACCESS_KEY_HERE' with your actual Web3Forms access key in the HTML.";
@@ -1461,7 +1241,6 @@
                     submitBtn.disabled = false;
                     submitBtn.innerHTML = 'Send Free Quote Request';
                     formResult.classList.remove('hidden');
-                    // Hide the success/error message after 6 seconds
                     setTimeout(() => {
                         formResult.classList.add('hidden');
                     }, 6000);
@@ -1469,12 +1248,10 @@
             });
         });
 
-        // --- Global function: Scroll to Top ---
         function scrollToTop() {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // --- Global functions: Modal Control ---
         const modal = document.getElementById('contactModal');
         
         function openModal() {
@@ -1485,7 +1262,6 @@
             modal.style.display = "none";
         }
         
-        // Close modal if user clicks outside of the modal-content
         window.onclick = function(event) {
             if (event.target == modal) {
                 closeModal();
@@ -1494,5 +1270,4 @@
     </script>
 
 </body>
-
 </html>
